@@ -1,3 +1,7 @@
+body{
+    padding:0;
+    margin:0;
+}
 h1,h2{
     color:#0A1D37;
     text-align: center;
@@ -13,6 +17,8 @@ h2{
     text-align: center;
     font-size: 30px;
     font-family: 'Caveat', cursive;
+    margin:0;
+    
     
 }
 
@@ -52,4 +58,7 @@ ul{
 .footer{
     position: fixed;
     background-color: #EAD3CB;
+}
+p.mavi{
+    color:#02475E;
 }

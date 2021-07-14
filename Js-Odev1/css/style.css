@@ -1,0 +1,28 @@
+.Text-Area{
+    text-align: center;
+    margin:auto;
+    background-color: #FCF1F1;
+    padding-top:70px;
+}
+.hosgeldin{
+    background-color: #F9813A;
+}
+img{
+    margin:100 50 50 50; 
+}
+.clock{
+    font-size: 75px;
+    background-color: #FFD5CD;
+}
+
+.text-3{
+    margin-top: 50px;
+    font-size: 25px;
+    background-color: #F9813A;
+}
+
+body{
+   margin:auto;
+    font-family: 'Uchen', serif;
+    background-color: #FCF1F1;
+}
