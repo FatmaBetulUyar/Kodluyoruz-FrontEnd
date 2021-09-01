@@ -1,6 +1,7 @@
 import "./App.css";
 import Card from "./components/Card/Card";
 import food from "./assets/food.jpg"; // Tell webpack this JS file uses this image
+import ReactDOM from "react-dom";
 
 function App() {
   const recipeAuthor = "Kodluyoruz";
@@ -21,10 +22,22 @@ function App() {
         <Card
           /* prop ismi = { değişken } */
           author={recipeAuthor}
+          title={recipeItem.title}
+          date={recipeItem.date}
+          image={recipeItem.image}
+          description={recipeItem.description}
+          likeCount={likeCount}
+          isLiked={isLiked}
+
         />
       </header>
     </div>
   );
 }
+
+ReactDOM.render(
+  <App/>,
+  document.getElementById('root')
+);
 
 export default App;
