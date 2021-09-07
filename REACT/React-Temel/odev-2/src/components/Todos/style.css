@@ -1,0 +1,109 @@
+.btn-toggle-all{
+   
+    width: 30px;
+    height: 40px;
+    text-align: center;
+    margin:5px 0;
+    padding:0;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    
+}
+h1{
+    color: #DDB6C6;
+    font-family: 'Hina Mincho', serif;
+
+}
+input{
+    width: 25%;
+    padding: 12px 20px;
+    margin:5px 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 0px solid #555;
+}
+
+body{
+    background-color: #343F56;
+}
+
+
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color:#262A53;
+}
+.list{
+    margin: 15px 0;
+}
+
+.list>li{
+    background-color: #F8F5F1;
+    padding: 5px;
+    margin-top: 2px;
+    display: flex;
+    justify-content:space-between;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-family: 'Hina Mincho', serif;
+    font-size: larger;
+
+}
+span{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnAdd{
+    display: flex;
+    justify-content: flex-end;
+    padding:5px 0;
+    
+}
+.btnAdd>button{
+    padding: 10px;
+    width: 80px;
+    background-color: #F8F5F1;
+    border: 0px solid;
+    color:#262A53;
+    transition-duration: 0.4s;
+}
+
+.btnAdd>button:hover{
+    background-color: #DDB6C6;
+    color:white;
+}
+
+.btn-mark {
+    padding: 10px;
+    width: 30px;
+    background-color: #387C6D;
+    border: 0px solid;
+    color:white;
+    transition-duration: 0.4s;
+}
+
+.btn-mark:hover{
+    background-color: #D2F6C5;
+    color:green;
+}
+
+.btn-remove{
+    padding: 10px;
+    width: 30px;
+    background-color: #E9896A;
+    border: 0px solid;
+    color:white;
+    transition-duration: 0.4s;
+}
+
+.btn-remove:hover{
+    background-color: lightsalmon;
+    color:red;
+}
