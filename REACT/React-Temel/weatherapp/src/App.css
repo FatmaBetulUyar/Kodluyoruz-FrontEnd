@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.card{
+  background-color:darkgrey;
+}
+
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border-radius: 30%;
+}
