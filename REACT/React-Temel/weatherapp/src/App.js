@@ -1,13 +1,14 @@
 import './App.css';
 import {WeatherProvider} from './context/WeatherContext';
-import Input from './components/Input';
+import CityForm from './components/CityForm';
 import Card from './components/Card';
+
 
 function App() {
   return (
     <div className="App">
       <WeatherProvider>
-        <Input/>
+        <CityForm/>
         <Card/>
 
       </WeatherProvider>
