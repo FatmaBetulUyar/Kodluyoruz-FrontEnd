@@ -2,7 +2,7 @@ import axios from "axios";
 
 const changeApi=(latitude,lonitude)=>{
   
-    return "https://api.openweathermap.org/data/2.5/forecast?lat="+latitude+"&lon="+lonitude+"&cnt=7&units=metric&appid=6f5ea70edffbb68ff961c32f1d46440d"
+    return "https://api.openweathermap.org/data/2.5/forecast?lat="+latitude+"&lon="+lonitude+"&cnt=7&units=metric&appid=api_key"
 }
 
 const getPublicContent=async(lat,long)=>{
