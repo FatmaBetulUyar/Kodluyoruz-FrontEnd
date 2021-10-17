@@ -138,7 +138,7 @@ function CityForm() {
                         <option value="Yozgat">Yozgat</option>
                         <option value="Zonguldak">Zonguldak</option>
                     </select>
-                    <button type="submit" className="btn btn-light">Submit</button>
+                    <button type="submit" className="btn btn-light">Ara</button>
                 </div>
             </form>
             <h1>{findcity(option)}</h1>

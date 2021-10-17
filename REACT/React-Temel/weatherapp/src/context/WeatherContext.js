@@ -5,6 +5,7 @@ export const WeatherProvider = ({ children }) => {
     const [weather, setWeather] = useState("");
     const [lat, setLat] = useState("39.9208");
     const [long, setLong] = useState("32.8541");
+    const [icon,setIcon]=useState("")
 
     const values = {
         weather,
@@ -12,7 +13,9 @@ export const WeatherProvider = ({ children }) => {
         lat,
         setLat,
         long,
-        setLong
+        setLong,
+        icon,
+        setIcon
     }
 
 
